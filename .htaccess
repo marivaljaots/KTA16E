@@ -1,3 +1,8 @@
+AuthType Basic
+AuthName "protected"
+AuthUserFile C:\wamp\www\kta16e\.htpasswd
+Require valid-user
+
 <files "*.txt">
 
 deny from all
